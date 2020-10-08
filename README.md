@@ -12,10 +12,9 @@
   3) The program accepts the movie name & prints its rating.
   4) Additionally, I have exported the full list of movies & ratings in a CSV file.
   
-Note: The web page displays first 250 movie details. So, I have exported the same list to CSV.
+**Note:** The web page displays first 250 movie details. So, I have exported the same list to CSV.
 
 ### Run Program:
   1) The Program ask you to enter a movie name
-  2) You don’t need to enter full movie name. Just input a word from movie name & it will print all the movies matching the name e.g. “The”
-  3) A CSV file “index.csv” will be created at the path where you’re running the program.
-  The CSV file has a full list of movies & its ratings
+  2) You don’t need to enter full movie name. Just input a word from movie name & it will print all the movies matching the name e.g. **“The”**
+  3) A CSV file “index.csv” will be created at the path where you’re running the program. The CSV file has a full list of movies & its ratings
