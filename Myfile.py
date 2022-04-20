@@ -3,7 +3,7 @@ import  csv
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-#Taking Input from the User (For Moie search)
+#Taking Input from the User (For Movie search)
 print('Enter Movie Name that you want to Search: ');
 input1 = input()
 
@@ -17,7 +17,7 @@ rating_box = soup.findAll('td', attrs={'class': 'ratingColumn imdbRating'})
 name_box = soup.findAll('td', attrs={'class': 'titleColumn'})
 
 
-#Running loop for search & find the movie searched by user 
+#Running loop for finding the movie details searched by user 
 for val in range (0, 249):
     name = name_box[val].text.strip()
     #print(name);
